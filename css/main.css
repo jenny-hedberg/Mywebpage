@@ -1,0 +1,166 @@
+/***** Base *****/
+body{
+  font-family: 'Roboto Slab', serif;
+  background-color: #f9f9f9;
+}
+
+#about{
+  height: 450px;
+
+}
+#work{
+  height: 1500px;
+}
+
+#contact{
+  height: 400px;
+}
+
+#copy {
+  height: 40px;
+}
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+  width:500px;
+  float:left;
+}
+
+/****** Header ******/
+header {
+    height:800px;
+    background:url('../img/trappa.jpg');
+    background-size: cover;
+}
+
+header h1 {
+    text-align:left;
+    font-size: 25px;
+    color: lightgrey;
+    padding: 25px 0px 25px 25px;
+}
+
+nav {
+    float: right;
+    padding: 30px 0px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size:18px;
+    color:lightgrey;
+    padding-left: 80px;
+}
+header h2 {
+    text-align: left;
+    clear: both;
+    font-size: 60px;
+    line-height: 80px;
+    color: darkgray;
+    padding: 150px 0px 0px 30px;
+}
+header h3 {
+  text-align: left;
+  font-size: 25px;
+  padding-left: 30px;
+}
+/***** About *****/
+
+#about .full-width{
+  margin: 20px;
+  padding: 0px;
+  height:400px;
+  background-color: #ffffff;
+  width: auto;
+  border: 5px solid black;
+}
+
+
+#about .aboutme{
+  float: left;
+  height: auto;
+  width: 500px;
+text-align: center;
+padding: 20px 80px 0px 120px;
+}
+.aboutme h2 {
+  margin-bottom: 50px;
+}
+
+#about img {
+    height: 320px;
+    width: 480px;
+    padding: 40px 0px 0px 40px;
+  }
+
+/****** work *****/
+#work .full-width {
+  text-align: center;
+  font-size: 40px;
+}
+ #work .portfolio {
+  float: left;
+}
+
+#work .box {
+  width: 500px;
+  height: 300px;
+  text-align: left;
+  padding: 50px 100px 100px 100px;
+
+}
+#work h4 {
+  font-size: 23px;
+}
+#work p{
+  font-size: 20px;
+}
+
+/******* contact ******/
+
+#contact {
+  background-color: #ffffff;
+}
+#contact .half-width{
+  width:600px;
+  height: auto;
+}
+#contact h5{
+  text-align: center;
+  font-size: 40px;
+  margin: 0px;
+  padding: 20px 0px 0px 0px;
+}
+#contact h6{
+  text-align: center;
+  font-size: 20px;
+  margin-left: 100px;
+
+}
+#contact p{
+  text-align: center;
+  font-size: 20px;
+  margin-left: 100px;
+
+}
+#contact img {
+  height: 250px;
+  width: auto;
+  border: solid black 5px;
+  margin-left: 200px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+/***** footer *****/
+
+#copy p{
+  text-align: center;
+  font-size: 15px;
+}
