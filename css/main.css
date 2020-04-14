@@ -1,3 +1,4 @@
+
 /***** Base *****/
 body{
   font-family: 'Roboto Slab', serif;
@@ -107,6 +108,12 @@ padding: 20px 80px 0px 120px;
 }
  #work .portfolio {
   float: left;
+}
+
+#work img{
+  margin-top: 30px;
+  height: 350px;
+  width: 550px;
 }
 
 #work .box {
